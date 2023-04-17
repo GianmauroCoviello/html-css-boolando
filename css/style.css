@@ -8,6 +8,12 @@
 .container{
     width: 1170px;
     margin: 0 auto;
+    padding-bottom: 50px;
+}
+.container-header{
+    width: 1170px;
+    margin: 0 auto;
+    
 }
 .row-header{
     padding: 10px 0;
@@ -42,6 +48,24 @@ main{
     position: relative;
 }
 
+.first-img{
+    display: block;
+}
+
+.second-img{
+    display: none;
+}
+.content:hover .second-img{ 
+    display: block;
+
+
+}
+.content:hover .first-img{ 
+    display: none;
+
+
+}
+
 
 /* END UTILITIES */
 
@@ -57,17 +81,16 @@ main{
 
 /* CLASSI ED ID DEL MAIN */
 
-
 .col{
     width: calc(100%/3 - 40px);
     margin: 10px 10px;
-    
-    
+       
 }
 p span{
     color: crimson;
 }
-label{
+
+.hearts{
     font-size: 25px;
     background-color: white;
     padding: 2px 6px;
@@ -76,5 +99,21 @@ label{
     right: 0;
     margin-top: 3px;
 }
+.first-sale{
+    color: white;
+    background-color: red;
+    padding: 3px;
+    position: absolute;
+    bottom: 5;
+
+}
+.second-sale{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    
+}
+
 
 /* FINE CLASSI ED ID DEL MAIN */
