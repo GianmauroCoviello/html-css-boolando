@@ -6,8 +6,8 @@
 
 /* UTILITIES */
 .container{
-    background-color: orange;
-    width: 100%;
+    width: 1170px;
+    margin: 0 auto;
 }
 .row-header{
     padding: 10px 0;
@@ -16,10 +16,35 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;   
+}
+main{
+    margin-top: 100px;
+}
+.row-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
     
     
 }
+.img-card{
+    width: 100%;
+    
+}
+.relative{
+    position: relative;
+}
+
+
 /* END UTILITIES */
+
 /* CLASSI ED ID HEADER */
 .col-33{
    width: calc(100%/3);
@@ -28,3 +53,28 @@
 .logo-boolean{
     width: 100px;
 }
+/* FINE CLASSI ED ID HEADER */
+
+/* CLASSI ED ID DEL MAIN */
+
+
+.col{
+    width: calc(100%/3 - 40px);
+    margin: 10px 10px;
+    
+    
+}
+p span{
+    color: crimson;
+}
+label{
+    font-size: 25px;
+    background-color: white;
+    padding: 2px 6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 3px;
+}
+
+/* FINE CLASSI ED ID DEL MAIN */
