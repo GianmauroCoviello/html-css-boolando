@@ -5,31 +5,63 @@
 }
 
 /* UTILITIES */
-.container{
-    width: 1170px;
-    margin: 0 auto;
-    padding-bottom: 50px;
+header{
+    background-color: orange;
+    width: 100%;
+    padding: 32px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0 0 10px 5px rgba(119, 114, 114, 0.973);
 }
+
 .container-header{
-    width: 1170px;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    
+}
+.container-main{
+    max-width: 1170px;
     margin: 0 auto;
     
 }
+.container-footer{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+}
 .row-header{
+    width: 1105px;
+    margin: 0 auto;
     padding: 10px 0;
     background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;   
+    z-index: 100;
+    
+}
+.content-icons{
+    text-align: right;
+}
+.content-menu{
+    text-align: left;
+}
+.content-logo{
+    text-align: center;
+    padding-top: 3px;
+    
 }
 main{
-    margin-top: 100px;
+    margin: 100px 0;
 }
 .row-card{
     display: flex;
@@ -65,21 +97,53 @@ main{
 
 
 }
+footer{
+    width: 100%;
+    background-color: black;
+}
+.row-footer{
+    max-width: 1105px;
+    margin: 0 auto;
+    background-color: black;
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+.col-50{
+    width: calc(100%/2);
+    text-align: start;
+    
+   
+}
+.col-40{
+    width: calc(100%/2);
+    text-align: end;
+}
+
 
 
 /* END UTILITIES */
 
 /* CLASSI ED ID HEADER */
 .col-33{
-   width: calc(100%/3);
-   color: white;
+    width: 1170px;
+    width: calc(100%/3 - 20px);
+    margin: 0 auto;
+    color: white;
+    
+   
+   
 }
 .logo-boolean{
-    width: 100px;
+    width: 150px;
 }
 /* FINE CLASSI ED ID HEADER */
 
 /* CLASSI ED ID DEL MAIN */
+
 
 .col{
     width: calc(100%/3 - 40px);
@@ -102,18 +166,34 @@ p span{
 .first-sale{
     color: white;
     background-color: red;
-    padding: 3px;
+    padding: 5px;
     position: absolute;
-    bottom: 5;
+    bottom: 100px;
 
 }
 .second-sale{
     background-color: green;
     color: white;
-    padding: 3px;
+    padding: 5px;
     position: absolute;
+    left: 50px;
+    bottom: 100px;
     
+}
+#second-sale{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
 }
 
 
 /* FINE CLASSI ED ID DEL MAIN */
+
+/* CLASSI ED ID DEL FOOTER */
+
+
+
+/* FINE CLASSI ED ID DEL FOOTER */
