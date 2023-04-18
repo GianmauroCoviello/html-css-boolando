@@ -152,8 +152,11 @@ footer{
     margin-bottom: 50px;
        
 }
-p span{
-    color: crimson;
+.price-red{
+    color: red;
+}
+.price-slash{
+    text-decoration: line-through;
 }
 
 .hearts{
